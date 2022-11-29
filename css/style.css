@@ -1,0 +1,22 @@
+#wrapper{
+    display: grid;
+}
+header{
+    font-family:OMEGLE ;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+h1{
+    font-family: OMEGLE;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-family: OMEGLE;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
