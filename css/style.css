@@ -1,22 +1,59 @@
+header{
+    background-color: blue;
+    grid-area: h1;
+    display: flex;
+     align-items: center;
+    
+
+  }
+  nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: OMEGLE;
+    color: white;
+    font-size: 2rem;
+  
+
+
+  }
+
+
+#s1{
+    grid-area: s1;
+    background-color: rgb(102, 102, 255);
+}
+#s2{
+    grid-area: s2;
+    background-color: rgb(0, 0, 119);
+}
+#s3{
+    grid-area: s3;
+    background-color: blue;
+}
+
+#s4{
+    grid-area: s4;
+    background-color: rgb(0, 0, 171);
+}
+#s5{
+    grid-area: s5;
+    background-color: rgb(123, 123, 255);
+}
+footer{
+    grid-area: f1;
+    background-color: blue;
+}
 #wrapper{
     display: grid;
+    grid-template-areas: 
+    "h1 h1 h1"
+    "s1 s1 s1"
+    "s2 s2 s2"
+    "s3 s4 s5"
+    "f1 f1 f1";
+    height: 95vh;
+
 }
-header{
-    font-family:OMEGLE ;
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-h1{
-    font-family: OMEGLE;
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-}
-p{
-    font-family: OMEGLE;
-    font-size: 45px;
-    display: flex;
-    justify-content: center;
-}
+
