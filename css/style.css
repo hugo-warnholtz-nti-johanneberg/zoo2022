@@ -31,7 +31,7 @@ header{
     align-items: center;
     width: 100%;
     font-family: OMEGLE;
-    font-size: 3rem;
+    font-size: 4rem;
     color: hsl(240, 93%, 66%);
     margin-top: 15vh;
   
@@ -44,7 +44,7 @@ header{
     justify-content: center;
     align-items: center;
     font-family: OMEGLE;
-    font-size: 2rem;
+    font-size: 3rem;
     color: hsl(240, 93%, 66%);
     margin-top: 4vh;
 }
@@ -72,12 +72,13 @@ footer{
     background-color: rgb(255, 255, 255);
     color:hsl(240, 93%, 66%) ;
     font-family: OMEGLE;
-    font-size: 150%;
-    width: 65vh;
+    font-size: 2rem;
+    width: 90vh;
     display: flex;
-    justify-content: center;
+    justify-self: center;
     align-items: center;
-    margin-top: 10vh
+    margin-top: 10vh;
+    
 }
     
 
@@ -89,7 +90,7 @@ footer{
     justify-content: center;
     font-family: OMEGLE;
     color: hsl(240, 93%, 66%);
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 2vh;
     
 }
@@ -109,11 +110,13 @@ footer{
 }
 
 #bildernastart{
-display: flex;
-justify-content: space-around;
+    display: flex;
+justify-content: center;
+}
+
 
 
 
    
-}
+
 
