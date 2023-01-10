@@ -7,20 +7,7 @@ header{
     
 
   }
-  nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: OMEGLE;
-    color: white;
-    font-size: 3rem;
-    
-    
-  
 
-
-  }
 
 
 #s1{
@@ -33,7 +20,8 @@ header{
     font-family: OMEGLE;
     font-size: 4rem;
     color: hsl(240, 93%, 66%);
-    margin-top: 15vh;
+    margin-top: 10vh;
+    background-color: lightblue;
   
     
 }
@@ -47,10 +35,12 @@ header{
     font-size: 3rem;
     color: hsl(240, 93%, 66%);
     margin-top: 4vh;
+    background-color: lightblue;
 }
 #s3{
     grid-area: s3;
     margin-top: 10vh;
+    
     
    
 }
@@ -58,6 +48,7 @@ header{
 #s4{
     grid-area: s4;
     margin-top: 10vh;
+
     
 }
 
@@ -78,6 +69,7 @@ footer{
     justify-self: center;
     align-items: center;
     margin-top: 10vh;
+    background-color: lightblue;
     
 }
     
@@ -92,11 +84,27 @@ footer{
     color: hsl(240, 93%, 66%);
     font-size: 3rem;
     margin-top: 2vh;
+    background-color: lightblue;
+    
+    
+}
+#s7{
+    grid-area: s7;
+    font-family: Omegle;
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    
     
 }
 #wrapper{
     display: grid;
     grid-template-areas: 
+    "s7 s7 s7"
     "h1 h1 h1"
     "s1 s1 s1"
     "s2 s2 s2"
@@ -108,10 +116,21 @@ footer{
    
 
 }
+a:link{
+    text-decoration: none;
+    
+}
 
 #bildernastart{
     display: flex;
 justify-content: center;
+}
+a{
+    color: hsl(240, 93%, 66%);
+}
+
+body{
+    background-color: lightblue;
 }
 
 

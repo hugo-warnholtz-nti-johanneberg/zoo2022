@@ -1,0 +1,117 @@
+#wrapper{
+    display: grid;
+    grid-template-areas: 
+    "s8 s8 s8"
+    "s1 s1 s1"
+    "s2 s2 s2"
+    "s3 s3 s3"
+    "s4 s4 s4"
+    "s5 s5 s5"
+    "s6 s6 s6"
+    "s7 s7 s7";
+}
+
+#s1{
+    grid-area: s1;
+    font-family: Omegle;
+    color: hsl(240, 93%, 66%);
+    font-size: 3rem;
+    display: flex;
+    justify-self: center;
+    
+
+}
+
+#s2{
+    grid-area: s2;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    stroke: aliceblue;
+
+    
+  
+}
+#s3{
+    display: flex;
+    font-family: Omegle;
+    grid-area: s3;
+    color: hsl(240, 93%, 66%);
+    font-size: 2.5rem;
+    justify-self: center;
+    margin: 5vh;
+
+}
+#s4{
+    grid-area: s4;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+}
+
+#s5{
+    grid-area: s5;
+    font-family: Omegle;
+    color: hsl(240, 93%, 66%);
+    font-size: 2.5rem;
+    justify-self: center;
+    margin: 5vh;
+
+}
+#s6{
+    grid-area: s6;
+    display: flex;
+    justify-self: center;
+    margin: 5vh;
+
+}
+#s7{
+    display: flex;
+    font-family: Omegle;
+    color: hsl(240, 93%, 66%);
+    font-size: 2.5rem;
+    justify-self: center;
+    grid-area: s7;
+    margin: 5vh;}
+#s8{
+    grid-area: s8;
+    font-family: Omegle;
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    
+    
+}
+
+a{
+ color: hsl(240, 93%, 66%);
+}
+
+a:link{
+    text-decoration: none;
+    
+    
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+body{
+    background-color: lightblue;
+}
